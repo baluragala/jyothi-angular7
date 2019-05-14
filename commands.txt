@@ -1,0 +1,6 @@
+ To install typescript:
+ ----------------------
+ npm install typescript -g
+
+ tsc --init // to create tsconfig.json file
+ tsc -w // to start tsc in watch mode

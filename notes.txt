@@ -1,0 +1,16 @@
+Day1
+----
+ES6
+ES5
+TS (default / officially recommend)
+Dart
+
+What is TS?
+----------
+Superset of JS
+JS - loosely typed 
+
+npm - node package manager
+
+
+tsc - typescript compiler
