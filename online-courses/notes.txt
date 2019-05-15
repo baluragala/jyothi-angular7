@@ -1,0 +1,19 @@
+4 ways 
+------
+interpolation - {{}}
+property binding - []
+event binding - ()
+2 way binding - [( )]
+
+
+Relation between components
+---------------------------
+
+P -> C => property binding
+C -> P => event binding
+
+List (P)
+Item (C)
+
+List -> Item => property binding
+Item -> List => event binding

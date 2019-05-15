@@ -14,3 +14,23 @@ npm - node package manager
 
 
 tsc - typescript compiler
+
+
+
+Day 2
+-----
+TS
+    - types
+    - functions
+        - mandatory
+        - optional 
+        - default 
+        - arrow functions
+        - function overloading
+    - classes
+        - access modifiers
+        - getters and setters
+    - interfaces
+    - generics
+    - decorators
+    - modules

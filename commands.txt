@@ -4,3 +4,7 @@
 
  tsc --init // to create tsconfig.json file
  tsc -w // to start tsc in watch mode
+
+ to install angular cli
+ -------------------------
+ npm install @angular/cli -g
