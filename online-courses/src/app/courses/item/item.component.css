@@ -1,8 +1,10 @@
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width: 40%;
-    font-family: Helvetica
+    width: 80%;
+    font-family: Helvetica;
+    padding: 10px;
+    height: 350px;
 }
 
 .card:hover {
@@ -11,4 +13,8 @@
 
 .container {
     padding: 2px 16px;
+}
+
+.even {
+    border: 1px solid saddlebrown;
 }

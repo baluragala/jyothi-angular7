@@ -6,4 +6,5 @@ export interface Course {
   price: number;
   duartion?: number;
   category: string;
+  isPublished?: boolean;
 }

@@ -1,4 +1,11 @@
 <h3>Top Courses</h3>
-<oc-item [course]="courses[0]" (favourite)="onFavourite($event)"></oc-item>
-<oc-item [course]="courses[1]" (favourite)="onFavourite($event)"></oc-item>
-<oc-item [course]="courses[2]" (favourite)="onFavourite($event)"></oc-item>
+<div class="grid-container">
+  <oc-item
+    class="grid-item"
+    *ngFor="let cor of courses; let i = index; let e = even; let o = odd"
+    [extras]="{ index: i, even: e, odd: o }"
+    [course]="cor"
+    (favourite)="onFavourite($event)"
+  >
+  </oc-item>
+</div>

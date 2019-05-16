@@ -10,8 +10,16 @@ export class ItemComponent implements OnInit {
   @Input()
   course: Course;
 
+  SYMBOL = "CAD";
+
+  @Input()
+  extras: any;
+
   @Output()
   favourite: EventEmitter<Course> = new EventEmitter();
+
+  styles = { color: "purple", "font-weight": "bold" };
+
   constructor() {}
 
   ngOnInit() {}

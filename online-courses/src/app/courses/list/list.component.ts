@@ -14,19 +14,21 @@ export class ListComponent implements OnInit {
     this.courses = [
       {
         id: 1,
-        title: "Complete python Bootcamp",
+        title: " python ",
         author: "Jose Portilla",
         duartion: 24,
         price: 200,
-        category: "Programming Languages"
+        category: "Programming Languages",
+        isPublished: true
       },
       {
         id: 2,
-        title: "The web Developer Bootcamp",
+        title: "loopback",
         author: "Colt Steele",
         duartion: 40,
         price: 150,
-        category: "Programming Languages"
+        category: "Programming Languages",
+        isPublished: false
       },
       {
         id: 3,
@@ -34,7 +36,35 @@ export class ListComponent implements OnInit {
         author: "Jose Portilla",
         duartion: 24,
         price: 200,
-        category: "Programming Languages"
+        category: "Programming Languages",
+        isPublished: true
+      },
+      {
+        id: 4,
+        title: "React 16",
+        author: "Jose Portilla",
+        duartion: 24,
+        price: 200,
+        category: "Programming Languages",
+        isPublished: true
+      },
+      {
+        id: 3,
+        title: "Vue js",
+        author: "Jose Portilla",
+        duartion: 24,
+        price: 200,
+        category: "Programming Languages",
+        isPublished: false
+      },
+      {
+        id: 3,
+        title: "Nest.js",
+        author: "Jose Portilla",
+        duartion: 24,
+        price: 200,
+        category: "Programming Languages",
+        isPublished: true
       }
     ];
   }

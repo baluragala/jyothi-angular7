@@ -1,13 +1,24 @@
-<div class="card">
+<div [ngClass]="{ card: true, even: extras.even }">
   <img
-    src="https://dummyimage.com/500x500/ebabeb/0011ff&text=course"
+    src="https://dummyimage.com/200x200/ebabeb/0011ff&text=course"
     alt="Avatar"
     style="width:100%"
   />
   <div class="container">
-    <h3>
-      <b>{{ course.title }}</b>
+    <h3 [ngStyle]="styles">
+      <b>{{ extras.index + 1 }}.{{ course.title | uppercase }}</b>
     </h3>
-    <button (click)="setFavourite()">Favourite</button>
+
+    <h4>{{ course.price | discount: 10 | currency: SYMBOL }}</h4>
+    <button
+      *ngIf="course.isPublished == true; else comingSoon"
+      (click)="setFavourite()"
+    >
+      Favourite
+    </button>
   </div>
 </div>
+
+<ng-template #comingSoon>
+  <h3>Coming Soon...</h3>
+</ng-template>
